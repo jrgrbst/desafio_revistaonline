@@ -1,0 +1,33 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000328}}
+body {
+  padding: 0 10%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000332}}
+.grid {
+  padding: 0 5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_header\.scss}line{font-family:\000031}}
+.header {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+/*# sourceMappingURL=main.css.map */
