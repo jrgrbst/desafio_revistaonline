@@ -13,14 +13,28 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000031}}
 body {
   padding: 0 10%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000332}}
-.grid {
-  padding: 0 5%;
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\000035}}
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000311}}
+.news {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_grid\.scss}line{font-family:\0000316}}
+.sidebar {
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_13\/revista_online\/assets\/sass\/layout\/_header\.scss}line{font-family:\000031}}

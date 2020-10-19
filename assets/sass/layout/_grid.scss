@@ -1,34 +1,19 @@
-$breakpoints: (
-    'xs': (max-width: 575.98px),
-    's': (min-width: 576px),
-    'md': (min-width: 768px),
-    'lg': (min-width: 992px),
-    'xl': (min-width: 1200px),
-);
-
-@mixin respond-to($breakpoint) {
-    $raw-query: map-get($breakpoints, $breakpoint);
-  
-    @if $raw-query {
-      $query: if(
-        type-of($raw-query) == 'string',
-        unquote($raw-query),
-        inspect($raw-query)
-      );
-  
-      @media #{$query} {
-        @content;
-      }
-    } @else {
-      @error 'No value found for `#{$breakpoint}`. '
-           + 'Please make sure it is defined in `$breakpoints` map.';
-    }
-}
-
 body {
-    padding: 0 10%;
+  padding: 0 10%;
 }
 
-.grid {
-    padding: 0 5%;
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.news {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.sidebar {
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
